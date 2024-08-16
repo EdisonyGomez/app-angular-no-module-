@@ -16,8 +16,6 @@ import { Character } from './models/character';
 export class AppComponent {
   title = 'app-angular-noModule';
 
-  //  data  [];
-
   constructor(private apiService: ApiService,){}
 
   response$: Observable<Character> | undefined;
@@ -28,9 +26,6 @@ export class AppComponent {
       this.characters = data;
       console.log(data)
     });
-  
-    // this.apiService.getData().subscribe(console.log)
   }
 
 }
-// 
