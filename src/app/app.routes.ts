@@ -1,3 +1,9 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+
+// menu.routes.ts
+export const routes: Routes = [
+    { path: '', loadComponent: () => import('./app.component').then((x) => x.AppComponent) },
+    // Other routes...
+  ];
+  
