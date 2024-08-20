@@ -1,12 +1,14 @@
 <div
   class="text-slate-300 bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
 
-
+ <!-- cabecera principal con titulo -->
   <header class="mb-6">
     <h1 class="text-center text-6xl text-pretty font-semibold ">
       Personajes
     </h1>
   </header>
+
+  <!-- Cuerpo con las imagenes renderizadas con el titulo -->
   <div class="container  w-screen gap-6 m-auto  ">
     @for (character of characters; track character) {
     <ul class=" flex flex-col justify-center m-auto text-center group">

@@ -1,0 +1,1 @@
+import{a as t,b as p,c as r,d as e,e as i}from"./chunk-WM5OB5K6.js";var m=[{path:"home",loadComponent:()=>import("./chunk-FBMAJSWY.js").then(o=>o.AppComponent)}];var n={providers:[t({eventCoalescing:!0}),e(m),p()]};r(i,n).catch(o=>console.error(o));
